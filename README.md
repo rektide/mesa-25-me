@@ -4,6 +4,8 @@ Super short script to hack-fix some Mesa dependencies in Debian/sid (unstable), 
 
 This is needed for Steam.
 
+![screenshot of code](https://github.com/rektide/mesa-25-me/blob/main/.code.png)
+
 Note that this hack only allows your 25.0.0-1 packages to _masquerade_ as 25.0.1-1 packages. This probably isn't super critical, but it's worth emphasizing that we're not really doing the right thing with this script.
 
 This should not be a long term problem, and you probably won't need this script after a couple days or so. But for folks wanting to get Steam running on their Debian systems with brand new Debian AMD RX 9070 XT video cards, well, this is the way, I guess. This script also serves as a reference for monkeying with Debian versioning dependencies in bulk.
